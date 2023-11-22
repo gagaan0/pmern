@@ -11,7 +11,7 @@ app.use(cors())
 mongoose.connect("mongodb+srv://Gagan:password@cluster0.r4ncvgy.mongodb.net/stuinfo")
 
 app.get("/",(req,res)=>{
-    res.send("i am charan")
+    res.send("I am Nodemon")
 })
 
 app.get('/get',(req,res)=>{
